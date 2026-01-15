@@ -232,3 +232,25 @@ section {
 .intro_sec .h_bg-image {
     filter: saturate(0.5);
 }
+
+.profile-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 991.98px) {
+    .profile-image {
+        max-width: 400px;
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .profile-image {
+        max-width: 300px;
+    }
+}

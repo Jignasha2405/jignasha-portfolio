@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
-import { dataportfolio, meta } from "../../content_option";
+import { whatIDo, testingTypes, projects, meta } from "../../content_option";
 
 export const Portfolio = () => {
   return (
@@ -19,19 +19,58 @@ export const Portfolio = () => {
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
-        <div className="mb-5 po_items_ho">
-          {dataportfolio.map((data, i) => {
-            return (
-              <div key={i} className="po_item">
-                <img src={data.img} alt="" />
-                <div className="content">
-                  <p>{data.description}</p>
-                  <a href={data.link}>view project</a>
+        
+        {/* What I Do Section - Centered */}
+        <Row className="sec_sp mb-5">
+          <Col lg={{ span: 10, offset: 1 }} md={{ span: 10, offset: 1 }}>
+            <div className="what-i-do-centered text-center">
+              <h2 className="what-i-do-heading mb-3">{whatIDo.heading}</h2>
+              <p className="what-i-do-description">{whatIDo.description}</p>
+            </div>
+          </Col>
+        </Row>
+
+        {/* Testing Types - Simple List */}
+        <Row className="sec_sp mb-5">
+          <Col lg={{ span: 8, offset: 2 }} md={{ span: 10, offset: 1 }}>
+            <div className="testing-types-list">
+              {testingTypes.map((testing, i) => {
+                return (
+                  <div key={i} className="testing-type-item">
+                    <h4 className="testing-type-title">{testing.title}</h4>
+                    <p className="testing-type-description">{testing.description}</p>
+                    {i < testingTypes.length - 1 && <hr className="testing-type-separator" />}
+                  </div>
+                );
+              })}
+            </div>
+          </Col>
+        </Row>
+
+        {/* Projects Section */}
+        <Row className="sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec py-4">Projects</h3>
+          </Col>
+          <Col lg="7">
+            {projects.map((project, i) => {
+              return (
+                <div key={i} className="project_item mb-5">
+                  <div className="project_category mb-2">
+                    <span className="badge bg-secondary">{project.category}</span>
+                  </div>
+                  <h4 className="project_title mb-2">{project.title}</h4>
+                  <p className="project_date text-muted mb-3">{project.date}</p>
+                  <p className="project_description mb-3">{project.description}</p>
+                  {project.link && project.link !== "#" && (
+                    <a href={project.link} className="project_link">View Project</a>
+                  )}
+                  {i < projects.length - 1 && <hr className="my-4" />}
                 </div>
-              </div>
-            );
-          })}
-        </div>
+              );
+            })}
+          </Col>
+        </Row>
       </Container>
     </HelmetProvider>
   );

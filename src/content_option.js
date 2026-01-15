@@ -1,164 +1,197 @@
-const logotext = "JOHN";
+const logotext = "JIGNASHA";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Jignasha Patil - Software Engineer & Tester",
+    description: "Quality-focused Software Tester and Engineer with experience across manual and automated testing as well as development. Currently working in Munich, Germany.",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I'm Jignasha Patil",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I'm a Software Engineer",
+        second: "I'm a Quality Assurance Tester",
+        third: "I build reliable software",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Quality-focused Software Tester and Engineer with experience across manual and automated testing as well as development. Skilled in designing effective test cases, identifying defects, and validating platform stability. Works closely with cross-functional teams to deliver reliable, high-quality software.",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "about myself",
+    aboutme: "I'm a Quality-focused Software Tester and Engineer with experience across manual and automated testing as well as development. Skilled in designing effective test cases, identifying defects, and validating platform stability. I work closely with cross-functional teams to deliver reliable, high-quality software. Certified in key testing practices and comfortable with a range of modern tools and frameworks. Currently based in Munich, Germany, I'm passionate about ensuring software quality and continuous improvement.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Software Engineer",
+        where: "ARCTORY, Munich",
+        date: "Sep 2025 - Present",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Software Tester",
+        where: "MITROZ Technologies, Pune",
+        date: "May 2022 - Dec 2024",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Internship",
+        where: "Mitroz Technologies, Pune",
+        date: "Oct 2021 - Apr 2022",
     },
 ];
 
 const skills = [{
-        name: "Python",
-        value: 90,
-    },
-    {
-        name: "Djano",
+        name: "Java",
         value: 85,
     },
     {
-        name: "Javascript",
+        name: "Python",
+        value: 75,
+    },
+    {
+        name: "HTML",
+        value: 85,
+    },
+    {
+        name: "C/C++",
+        value: 70,
+    },
+    {
+        name: "Selenium",
+        value: 85,
+    },
+    {
+        name: "SQL",
         value: 80,
     },
     {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
+        name: "Test Automation",
         value: 85,
     },
-];
-
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        name: "Manual Testing",
+        value: 90,
     },
 ];
 
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+const Expertise = [{
+        title: "Test Automation",
+        description: "Building and maintaining automated test scripts with Selenium WebDriver and Java, expanding coverage and speeding up regression cycles.",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        title: "Performance Testing",
+        description: "Performing load and stress testing to assess application stability and responsiveness under heavy traffic and peak usage conditions.",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        title: "Manual Testing",
+        description: "Developing and executing detailed test plans and cases to ensure applications meet functional, performance, and usability requirements.",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        title: "Cross-Team Collaboration",
+        description: "Partnering closely with developers, product managers, and business teams to clarify requirements and prevent defects early in the lifecycle.",
     },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+];
 
+const certifications = [
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        name: "The Fundamentals of Digital Marketing",
+        issuer: "Google",
+    },
+    {
+        name: "Diploma in Software Testing (Manual + Automation)",
+        issuer: "ITB (Indian Testing Board)",
+    },
+    {
+        name: "Data Science Hands-on with Open-source tools",
+        issuer: "Cognitive",
+    },
+    {
+        name: "Cybersecurity and the Internet of things",
+        issuer: "Coursera",
+    },
+    {
+        name: "Explore Salesforce Software testing",
+        issuer: "Trailhead",
+    },
+];
+
+const whatIDo = {
+    title: "What I Do",
+    heading: "QA Testing",
+    description: "Ensuring that your product is of the highest possible quality for your customers. Using all of the techniques and methodologies I've learned to prevent issues with your software product or service and to ensure great user experience for your customers.",
+};
+
+const testingTypes = [
+    {
+        title: "Website Testing",
+        description: "Comprehensive testing of web applications including functional, usability, and cross-browser testing. I use Selenium WebDriver for automation and manual testing techniques to ensure websites work flawlessly across different browsers and devices.",
+    },
+    {
+        title: "API Testing",
+        description: "Verification of API endpoints, request/response validation, and data integrity testing. I use Postman for API testing, verify test data accuracy, and ensure proper error handling and status codes.",
+    },
+    {
+        title: "Mobile App Testing",
+        description: "Testing mobile applications across different devices and operating systems. I perform device-specific testing, identify and report bugs with proper documentation, and ensure optimal user experience on various screen sizes.",
+    },
+    {
+        title: "E-commerce Website Testing",
+        description: "Designed and executed test cases for login, checkout, and payment modules. Identified and reported critical bugs with proper severity and priority. Tools: TestRail, Jira, Postman",
+    },
+];
+
+const projects = [
+    {
+        category: "Academic Project",
+        title: "Goal Tracking System",
+        date: "2020 - 2021",
+        description: "Goal Tracker was an application designed to manage daily tasks and improve productivity. An automated bot would pop up if there were any suggestions or group discussions were needed. Key modules included notifications, goal rescheduling, and report generation. This project used clustering, time tracking methods, and different algorithms to track and analyze activities.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        category: "Academic Project",
+        title: "Online Medical Service - Web Application",
+        date: "2019 - 2020",
+        description: "Developed a healthcare web application enabling patients to consult certified doctors online. Implemented modules for user registration & authentication, doctor search, online consultation, and hospital locator. Applied manual testing methods such as functional, usability, and regression testing to ensure reliability and performance.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        category: "Published Paper",
+        title: "Goal Tracking, A Survey",
+        date: "June 2021",
+        description: "Published in IJSREM publication",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        category: "Published Paper",
+        title: "Online Tailoring Management System",
+        date: "June 2020",
+        description: "Published in Conference of Industry 4.0",
         link: "#",
     },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "patilj2023@gmail.com",
+    YOUR_FONE: "+49 15510589564",
+    description: "I'm currently based in Munich, Germany. Feel free to reach out if you'd like to collaborate on a project or discuss opportunities. I'm always open to connecting with fellow professionals in software development and quality assurance.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_fawdcb2",
+    YOUR_TEMPLATE_ID: "template_x305k2a",
+    YOUR_USER_ID: "WkbaXd2RoKbc6v73n",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/jignasha2405",
+    linkedin: "https://www.linkedin.com/in/jignasha-patil",
+
 };
 export {
     meta,
     dataabout,
-    dataportfolio,
+    whatIDo,
+    testingTypes,
+    projects,
     worktimeline,
     skills,
-    services,
+    Expertise,
+    certifications,
     introdata,
     contactConfig,
     socialprofils,
