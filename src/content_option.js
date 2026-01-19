@@ -30,8 +30,26 @@ const worktimeline = [{
     },
     {
         jobtitle: "Internship",
-        where: "Mitroz Technologies, Pune",
+        where: "MITROZ Technologies, Pune",
         date: "Oct 2021 - Apr 2022",
+    },
+];
+
+const education = [
+    {
+        degree: "Bachelor of Computer Science and Engineering",
+        institution: "Gujarat Technological University",
+        date: "June/2017 - Oct/2021",
+    },
+    {
+        degree: "Diploma in Software Testing",
+        institution: "Pune Institute",
+        date: "Sep/2022 - May/2023",
+    },
+    {
+        degree: "Deutsch Course",
+        institution: "MVHS Munich",
+        date: "Aug/2024 - May/2025",
     },
 ];
 
@@ -172,10 +190,10 @@ const contactConfig = {
     description: "I'm currently based in Munich, Germany. Feel free to reach out if you'd like to collaborate on a project or discuss opportunities. I'm always open to connecting with fellow professionals in software development and quality assurance.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_fawdcb2",
-    YOUR_TEMPLATE_ID: "template_x305k2a",
-    YOUR_USER_ID: "WkbaXd2RoKbc6v73n",
-};
+    YOUR_SERVICE_ID: "service_v1cc57d",
+    YOUR_TEMPLATE_ID: "template_vztxv0u",
+    YOUR_USER_ID: "d5gBaNCckAHg9PN9x",
+};""
 
 const socialprofils = {
     github: "https://github.com/jignasha2405",
@@ -189,6 +207,7 @@ export {
     testingTypes,
     projects,
     worktimeline,
+    education,
     skills,
     Expertise,
     certifications,

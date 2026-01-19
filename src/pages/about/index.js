@@ -6,6 +6,7 @@ import {
   dataabout,
   meta,
   worktimeline,
+  education,
   skills,
   Expertise,
   certifications,
@@ -48,6 +49,26 @@ export const About = () => {
                     <tr key={i}>
                       <th scope="row">{data.jobtitle}</th>
                       <td>{data.where}</td>
+                      <td>{data.date}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </Col>
+        </Row>
+        <Row className="sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec py-4">Education</h3>
+          </Col>
+          <Col lg="7">
+            <table className="table caption-top">
+              <tbody>
+                {education.map((data, i) => {
+                  return (
+                    <tr key={i}>
+                      <th scope="row">{data.degree}</th>
+                      <td>{data.institution}</td>
                       <td>{data.date}</td>
                     </tr>
                   );
