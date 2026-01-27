@@ -1,0 +1,80 @@
+.contact-info {
+    padding: 40px 20px;
+    text-align: left;
+}
+
+.contact-info h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 30px;
+}
+
+.contact-detail {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--text-color);
+    word-break: break-word;
+}
+
+.contact-detail strong {
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.contact-detail a,
+.email-link {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: normal;
+    display: inline;
+    word-break: break-all;
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: none !important;
+    animation: none !important;
+}
+
+.contact-detail a:hover,
+.email-link:hover {
+    color: var(--text-color);
+    text-decoration: none;
+    opacity: 1 !important;
+    transition: none !important;
+}
+
+.contact-detail a:visited,
+.email-link:visited {
+    color: var(--text-color);
+    text-decoration: none;
+    opacity: 1 !important;
+}
+
+.contact-detail a:focus,
+.email-link:focus {
+    outline: none;
+    opacity: 1 !important;
+}
+
+.contact-message {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: var(--text-color);
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 767px) {
+    .contact-info {
+        padding: 30px 15px;
+    }
+    
+    .contact-info h2 {
+        font-size: 1.75rem;
+    }
+    
+    .contact-detail {
+        font-size: 1rem;
+    }
+}

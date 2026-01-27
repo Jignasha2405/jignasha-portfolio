@@ -8,14 +8,14 @@ const introdata = {
     title: "I'm Jignasha Patil",
     animated: {
         first: "I'm a Software Engineer",
-        second: "I'm a Quality Assurance Engineer",
+        second: "I'm a Quality Assurance Tester",
         third: "I build reliable software",
     },
     description: "Quality-focused Software Tester and Engineer with experience across manual and automated testing as well as development. Skilled in designing effective test cases, identifying defects, and validating platform stability. Works closely with cross-functional teams to deliver reliable, high-quality software.",
 };
 
 const dataabout = {
-    title: "About myself",
+    title: "about myself",
     aboutme: "I'm a Quality-focused Software Tester and Engineer with experience across manual and automated testing as well as development. Skilled in designing effective test cases, identifying defects, and validating platform stability. I work closely with cross-functional teams to deliver reliable, high-quality software. Certified in key testing practices and comfortable with a range of modern tools and frameworks. Currently based in Munich, Germany, I'm passionate about ensuring software quality and continuous improvement.",
 };
 const worktimeline = [{
@@ -37,9 +37,9 @@ const worktimeline = [{
 
 const education = [
     {
-        degree: "Deutsch Course",
-        institution: "MVHS Munich",
-        date: "Aug/2024 - May/2025",
+        degree: "Bachelor of Computer Science and Engineering",
+        institution: "Gujarat Technological University",
+        date: "June/2017 - Oct/2021",
     },
     {
         degree: "Diploma in Software Testing",
@@ -47,43 +47,43 @@ const education = [
         date: "Sep/2022 - May/2023",
     },
     {
-        degree: "Bachelor of Computer Science and Engineering",
-        institution: "Gujarat Technological University",
-        date: "June/2017 - Oct/2021",
+        degree: "Deutsch Course",
+        institution: "MVHS Munich",
+        date: "Aug/2024 - May/2025",
     },
 ];
 
 const skills = [{
         name: "Java",
-        value: "Advanced",
+        value: 85,
     },
     {
         name: "Python",
-        value: "Intermediate",
+        value: 75,
     },
     {
         name: "HTML",
-        value: "Intermediate",
+        value: 85,
     },
     {
         name: "C/C++",
-        value: "Advanced",
+        value: 70,
     },
     {
         name: "Selenium",
-        value: "Advanced",
+        value: 85,
     },
     {
         name: "SQL",
-        value: "Beginner",
+        value: 80,
     },
     {
         name: "Test Automation",
-        value: "Advanced",
+        value: 85,
     },
     {
         name: "Manual Testing",
-        value: "Advanced",
+        value: 90,
     },
 ];
 
@@ -186,7 +186,7 @@ const projects = [
 
 const contactConfig = {
     YOUR_EMAIL: "patilj2023@gmail.com",
-    YOUR_FONE: "+49 15510589564 ",
+    YOUR_FONE: "+49 15510589564",
     description: "I'm currently based in Munich, Germany. Feel free to reach out if you'd like to collaborate on a project or discuss opportunities. I'm always open to connecting with fellow professionals in software development and quality assurance.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/

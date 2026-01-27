@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/jignasha-portfolio/static/css/main.a674bc4c.css",
+    "main.js": "/jignasha-portfolio/static/js/main.6cad76ff.js",
+    "static/media/IMG_4300.jpg": "/jignasha-portfolio/static/media/IMG_4300.d9dca4cd12cfae74bcb3.jpg",
+    "index.html": "/jignasha-portfolio/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.a674bc4c.css",
+    "static/js/main.6cad76ff.js"
+  ]
+}

@@ -66,6 +66,33 @@
     border-bottom: solid 2px var(--secondary-color);
 }
 
+.skills-grid {
+    margin: 0;
+}
+
+.skill-item-col {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+.skill-item-inline {
+    padding: 10px 0;
+}
+
+.skill-text {
+    font-size: 1rem;
+    color: var(--text-color);
+    font-weight: 500;
+    display: block;
+    line-height: 1.6;
+}
+
+@media (max-width: 767px) {
+    .skill-item-col {
+        padding-right: 0;
+    }
+}
+
 .service-section .service-category-title {
     padding-bottom: 4px;
 }

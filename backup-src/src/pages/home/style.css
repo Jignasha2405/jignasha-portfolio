@@ -69,16 +69,6 @@ section {
     }
 }
 
-@media (max-width: 768px) {
-    .intro_sec .text {
-        padding-top: 20vh;
-    }
-    
-    .intro_sec .intro {
-        padding-top: 0;
-    }
-}
-
 .intro_sec .intro .feature .wrap-icon {
     background: 0 0!important;
     width: auto;
